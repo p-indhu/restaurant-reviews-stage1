@@ -309,6 +309,7 @@ nav h1 a {
   color: #666;
 }
 
+/* ====================== For smaller screens ====================== */
 @media only screen and (max-width: 750px) {
 	.filter-options {
 		height: 40px;
@@ -366,7 +367,6 @@ nav h1 a {
 		order: 4;
 		width: 100vw;
 		padding: 15px;
-		margin: auto;
 	}
 	.inside #footer {
 		order: 5;
@@ -377,6 +377,7 @@ nav h1 a {
 	}
 	#reviews-list {
 		width: 100vw;
+		margin-bottom: 30px;
 	}
 	#reviews-list li {
 		margin: 0;
